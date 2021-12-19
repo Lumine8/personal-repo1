@@ -8,6 +8,7 @@
 body{
     font-family: 'Inter', 
     sans-serif;
+    margin:0px
 }
 
 .container{
@@ -97,4 +98,20 @@ hr{
 .off-white-sec{
     background-color: whitesmoke;
 }
+.footer{
+    background-color: rgb(166, 219, 195);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
 
+}
+
+.footer .link{
+    color: white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+
+}
