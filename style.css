@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 :root{
-    --primary-color: rgb(56, 146, 108);
+    --primary-color: #2E86B7;
 
 }
 
@@ -26,8 +26,10 @@ body{
 }
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 .primary-color{
     background-color: var(--primary-color);
@@ -99,7 +101,7 @@ hr{
     background-color: whitesmoke;
 }
 .footer{
-    background-color: rgb(166, 219, 195);
+    background-color: #2E86B7;
     padding: 2rem 1rem;
     border-top-right-radius: 1rem;
     text-align: center;
@@ -114,4 +116,9 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
