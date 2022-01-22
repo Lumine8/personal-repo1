@@ -153,3 +153,7 @@ margin-top: 1rem;
 p{
     text-align: center;
 }
+
+.blog1 p{
+    text-align: left;
+}
