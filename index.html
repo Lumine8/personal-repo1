@@ -7,7 +7,7 @@
     <title>home | sankar</title>
     <link href="style.css" rel="stylesheet" />
 </head>
-<body>
+<body id="animation-bg">
     <nav class="navigation container">
         <div class= "nav-brand">IAMCODER</div>
         <ul class="non-bullets nav-pills">
@@ -42,7 +42,7 @@
     <section class="section">
         <div class="container container-center">
             <h1>Projects</h1>
-            <p>I Havent uploaded any projects yet (even this is a project).</p>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
             <a class="link secondary-color" href = "/Projects.html">See Projects</a>
         </div>
     </section>
@@ -50,7 +50,7 @@
     <section class="section off-white-sec">
         <div class="container container-center">
             <h1>Blogs</h1>
-            <p>I Haven't written any Blogs... yet</p>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
             <a class="link secondary-color" href = "/Blogs.html">Browse Blogs</a>
         </div>
     </section>
@@ -62,6 +62,30 @@
                 <li class="list-inline"><a class="link"href="https://github.com/Lumine8">Github</a></li>
                 <li class="list-inline"><a class="link" href="https://www.linkedin.com/in/sankar-gopan-5660a1141/">Linkedin</a></li>
             </ul>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+            <script>
+            VANTA.BIRDS({
+            el: "#animation-bg",
+             mouseControls: true,
+             touchControls: true,
+             gyroControls: false,
+             minHeight: 200.00,
+             minWidth: 200.00,
+             scale: 1.00,
+             scaleMobile: 1.00,
+             backgroundColor: 0xffffff,
+             color1: 0xa4ff,
+             color2: 0x3cff,
+             colorMode: "lerpGradient",
+             wingSpan: 37.00,
+             speedLimit: 4.00,
+             separation: 55.00,
+             quantity: 4.00
+            })
+            </script>
+    
             
     </footer>
 </body>
