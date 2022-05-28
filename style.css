@@ -5,11 +5,18 @@
 
 }
 
+@media screen and (max-width:800px){
+    body{
+        min-width: 98%;
+        overflow-x: hidden;
+    }
+}
+
 body{
     font-family: 'Inter',sans-serif;
     margin:0px auto;
-    max-width: 85%;
-    width: 100%;
+   /* max-width: 85%;*/
+    width: 85%;
 }
 
 .container{
@@ -50,6 +57,9 @@ body{
 hr{
     margin: 2rem 0rem;
 }
+.non-bullets, .nav-pills{
+    text-align: right;
+}
 
 .non-bullet{
     list-style:none;
@@ -69,8 +79,7 @@ hr{
 
 .navigation .link{
     color: white;
-    text-align: right;
-    float: right;
+   text-align: right;
 }
 
 .ulok{
@@ -129,7 +138,7 @@ hr{
 
 .small{
     text-align: center;
-    padding-left: 4.5rem;
+    padding-left: 81px;
 }
 
 .heading1{
